@@ -1,0 +1,25 @@
+Expected at least 1 args, received 0
+CertUtil: Missing argument
+
+Usage:
+  CertUtil [Options] -hashfile InFile [HashAlgorithm]
+  Generate and display cryptographic hash over a file
+
+Options:
+  -Unicode          -- Write redirected output in Unicode
+  -gmt              -- Display times as GMT
+  -seconds          -- Display times with seconds and milliseconds
+  -v                -- Verbose operation
+  -privatekey       -- Display password and private key data
+  -pin PIN                  -- Smart Card PIN
+  -sid WELL_KNOWN_SID_TYPE  -- Numeric SID
+            22 -- Local System
+            23 -- Local Service
+            24 -- Network Service
+
+Hash algorithms: MD2 MD4 MD5 SHA1 SHA256 SHA384 SHA512
+
+CertUtil -?              -- Display a verb list (command list)
+CertUtil -hashfile -?    -- Display help text for the "hashfile" verb
+CertUtil -v -?           -- Display all help text for all verbs
+
